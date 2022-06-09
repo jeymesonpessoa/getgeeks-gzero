@@ -33,3 +33,18 @@ def factory_user_login():
         'email': 'jeymeson@hotmail.com',
         'password': 'pwd123'
     }
+
+def factory_user_begeek():
+    return {
+        'name': 'Kim',
+        'lastname': 'Dotcom',
+        'email': 'kim@dot.com',
+        'password': 'pwd123',
+        'geek_profile': {
+            'whats': '11999999999',
+            'desc': 'Seu computador está lento? Talvez seja um vírus, posso fazer a manutenção do seu pc! Entre em contato comigo! :)',
+            'printer_repair': 'Sim',
+            'work': 'Remoto',
+            'cost': '100'
+        }
+    }
