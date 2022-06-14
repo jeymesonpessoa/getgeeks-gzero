@@ -23,4 +23,4 @@ Start Session
     New Page        ${BASE_UR}        
 
 Finish Session
-    Take Screenshot
+    Take Screenshot     fullPage=True
