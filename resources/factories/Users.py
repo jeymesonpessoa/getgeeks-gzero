@@ -54,6 +54,45 @@ def factory_user(target):
                 'work': 'Ambos',
                 'cost': '200'
             }
+        },
+        'long_desc': {
+            'name': 'Dio',
+            'lastname': 'Linux',
+            'email': 'dio@linux.com',
+            'password': 'pwd123',
+            'geek_profile': {
+                'whats': '85999999999',
+                'desc': 'formato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformdssdfdsfsdfdsdsfsdfd',
+                'printer_repair': 'Não',
+                'work': 'Remoto',
+                'cost': '150'
+            }
+        },
+        'empty_desc': {
+            'name': 'Dio',
+            'lastname': 'Linux',
+            'email': 'dio@linux.com',
+            'password': 'pwd123',
+            'geek_profile': {
+                'whats': '85999999999',
+                'desc': '',
+                'printer_repair': 'Não',
+                'work': 'Remoto',
+                'cost': '150'
+            }
+        },
+        'whats_desc': {
+            'name': 'Dio',
+            'lastname': 'Linux',
+            'email': 'dio@linux.com',
+            'password': 'pwd123',
+            'geek_profile': {
+                'whats': '',
+                'desc': 'formato o seu ffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformdssdfdsfsdfdsdsfsdfd',
+                'printer_repair': 'Não',
+                'work': 'Remoto',
+                'cost': '150'
+            }
         }
     }
 
