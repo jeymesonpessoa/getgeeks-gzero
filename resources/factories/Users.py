@@ -42,53 +42,14 @@ def factory_user(target):
                 'cost': '100'
             }
         },
-        'short_desc': {
-            'name': 'Peter',
-            'lastname': 'Jordan',
-            'email': 'peter@einerd.com',
-            'password': 'pwd123',
-            'geek_profile': {
-                'whats': '21999999999',
-                'desc': 'Formato o seu pc',
-                'printer_repair': 'Não',
-                'work': 'Ambos',
-                'cost': '200'
-            }
-        },
-        'long_desc': {
+        'attempt_be_geek': {
             'name': 'Dio',
             'lastname': 'Linux',
             'email': 'dio@linux.com',
             'password': 'pwd123',
             'geek_profile': {
                 'whats': '85999999999',
-                'desc': 'formato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformdssdfdsfsdfdsdsfsdfd',
-                'printer_repair': 'Não',
-                'work': 'Remoto',
-                'cost': '150'
-            }
-        },
-        'empty_desc': {
-            'name': 'Dio',
-            'lastname': 'Linux',
-            'email': 'dio@linux.com',
-            'password': 'pwd123',
-            'geek_profile': {
-                'whats': '85999999999',
-                'desc': '',
-                'printer_repair': 'Não',
-                'work': 'Remoto',
-                'cost': '150'
-            }
-        },
-        'whats_desc': {
-            'name': 'Dio',
-            'lastname': 'Linux',
-            'email': 'dio@linux.com',
-            'password': 'pwd123',
-            'geek_profile': {
-                'whats': '',
-                'desc': 'formato o seu ffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformdssdfdsfsdfdsdsfsdfd',
+                'desc': 'formato o seu pcdffdfsdfdfghhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformato o seu pcdffdfsdfdfghgfhfghjhjhjhgfjhjhjjfjfjfgjfgjformdssdfdsfsdfdsdsfsdfd',
                 'printer_repair': 'Não',
                 'work': 'Remoto',
                 'cost': '150'
