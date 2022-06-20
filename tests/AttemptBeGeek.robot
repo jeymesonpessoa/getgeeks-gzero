@@ -11,17 +11,18 @@ ${longdesc}     formato o seu pcdffdfsdfdfghhjhjhgfjhjhjjfjfjfgjfgjformato o seu
 
 *Test Cases*
 
-Short desc          desc    Formato o seu PC    A descrição deve ter no minimo 80 caracteres
-Long desc           desc    ${longdesc}         A descrição deve ter no máximo 255 caracteres
-Empty desc          desc    ${EMPTY}            Informe a descrição do seu trabalho
-Whats only ddd      whats   11                  O Whatsapp deve ter 11 digitos contando com o DDD
-Whats only numbers  whats   123456789           O Whatsapp deve ter 11 digitos contando com o DDD
-Empty whats         whats   ${EMPTY}            O Whatsapp deve ter 11 digitos contando com o DDD
-Cost letters        cost    aaaa                Valor hora deve ser numérico
-Cost alfa           cost    aa12                Valor hora deve ser numérico
-Cost special chars  cost    $%&                 Valor hora deve ser numérico
-Empty cost          cost    ${EMPTY}            Valor hora deve ser numérico
-
+Short desc              desc            Formato o seu PC    A descrição deve ter no minimo 80 caracteres
+Long desc               desc            ${longdesc}         A descrição deve ter no máximo 255 caracteres
+Empty desc              desc            ${EMPTY}            Informe a descrição do seu trabalho
+Whats only ddd          whats           11                  O Whatsapp deve ter 11 digitos contando com o DDD
+Whats only numbers      whats           123456789           O Whatsapp deve ter 11 digitos contando com o DDD
+Empty whats             whats           ${EMPTY}            O Whatsapp deve ter 11 digitos contando com o DDD
+Cost letters            cost            aaaa                Valor hora deve ser numérico
+Cost alfa               cost            aa12                Valor hora deve ser numérico
+Cost special chars      cost            $%&                 Valor hora deve ser numérico
+Empty cost              cost            ${EMPTY}            Valor hora deve ser numérico
+No printer repair       printer_repair  ${EMPTY}            Por favor, informe se você é um Geek Supremo
+No work                 work            ${EMPTY}            Por favor, selecione o modelo de trabalho
 
 *Keywords*
 Attempt Be a Geek 
@@ -35,7 +36,7 @@ Attempt Be a Geek
     Submit Geek Form 
     Alert Span Should Be   ${output_message}
 
-    Take Screenshot     fullPage=True
+    After Test
 
 Start Session For Attempt Be Geek 
 

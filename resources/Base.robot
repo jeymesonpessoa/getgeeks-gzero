@@ -5,6 +5,7 @@ Library             Browser
 Library             Collections
 
 Library             factories/Users.py
+Library             Utils.py
 
 Resource            actions/_SharedActions.robot
 Resource            actions/AuthActions.robot
@@ -19,8 +20,10 @@ ${BASE_UR}          https://getgeeks-jeymeson.herokuapp.com
 
 *Keywords*
 Start Session
-    New Browser     chromium    headless=False     
-    New Page        ${BASE_UR}        
+    New Browser         ${BROWSER}    headless=${HEADLESS}    
+    New Page            ${BASE_UR}
+    Set Viewport Size   1280    768           
 
-Finish Session
-    Take Screenshot     fullPage=True
+After Test
+    ${shot_name}        Screenshot Name
+    Take Screenshot     fullPage=True       filename=${shot_name}
