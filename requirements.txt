@@ -1,5 +1,6 @@
 bcrypt==3.2.2
 Faker==13.7.0
+psycopg2==2.9.3
 requests==2.28.0
 robotframework==4.1.2
 robotframework-browser==10.0.3
