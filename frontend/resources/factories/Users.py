@@ -11,7 +11,9 @@ def users_to_insert_db():
     return [
         factory_user('login'),
         factory_user('be_geek'),
-        factory_user('attempt_be_geek')
+        factory_user('attempt_be_geek'),
+        factory_user('search_alien'),
+        factory_user('search_common')
     ]
 
 def factory_user(target):
@@ -61,6 +63,25 @@ def factory_user(target):
                 'work': 'Remoto',
                 'cost': '150'
             }
+        },
+        'search_alien': {
+            'name': 'Doc',
+            'lastname': 'Ock',
+            'email': 'dok@oscorp.com',
+            'password': 'pwd123',
+            'geek_profile': {
+                'whatsapp': '11888888888',
+                'desc': 'Olá! Eu conserto impressoras e deixo tudo bem ajeitaidinho kkkkkk. Conte, comigo@ Sou divertido. E ainda levo um cartucho preto e branco pra você.',
+                'printer_repair': 'Sim',
+                'work': 'Presencial',
+                'cost': '100'
+            }
+        },
+        'search_common': {
+            'name': 'Peter',
+            'lastname': 'Parker',
+            'email': 'parker@oscorp.com',
+            'password': 'pwd123'
         }
     }
 
