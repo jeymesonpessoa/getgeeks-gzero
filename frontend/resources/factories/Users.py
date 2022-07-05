@@ -88,7 +88,14 @@ def factory_user(target):
             'name': 'Peter',
             'lastname': 'Parker',
             'email': 'parker@oscorp.com',
-            'password': 'pwd123'
+            'password': 'pwd123',
+            'geek_profile': {
+                'whatsapp': '11999999999',
+                'desc': 'Sou profissional que formata todos os tipos de computadores. Notebooks, celulares e tablets também.',
+                'printer_repair': 'Não',
+                'work': 'Presencial',
+                'cost': '120'
+            }
         }
     }
 
